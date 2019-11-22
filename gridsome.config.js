@@ -7,6 +7,7 @@
 module.exports = {
   siteName: 'Gridsome + Tailwind',
   plugins: [
-  	{ use: "gridsome-plugin-tailwindcss"}
+    // https://gridsome.org/plugins/gridsome-plugin-tailwindcss
+    { use: "gridsome-plugin-tailwindcss"}
   ]
 }
